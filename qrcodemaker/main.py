@@ -5,7 +5,8 @@ from aiogram.types import Message, FSInputFile
 from aiogram import Bot, Dispatcher
 from aiogram.filters import CommandStart
 
-bot = Bot(token='6833797158:AAF-II07nAajKyHfRqcd03PYrYpLrPyFpr4')
+#Paste here your token bot (you can get it from bot father)
+bot = Bot(token='TOKEN')
 dp = Dispatcher()
 async def main() -> None:
     await dp.start_polling(bot)
